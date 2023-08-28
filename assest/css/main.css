@@ -1,3 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
-	
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #222222;
+	color: #fff;
+}
+
+.menu-link {
+	color: rgba(255, 255, 255, 0.50);
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400; 
+}
+
+.active {
+	color: #FFF;
+    font-family: 'Ubuntu Mono', monospace;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700; 
+}
+
+.menu-link:hover {
+	color: rgba(255, 255, 255, 0.75);
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400; 
+}
+
+.active:hover {
+	color: #FFF;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700; 
+}
+
+.main-container {
+	margin-top: 7vh;
+	padding-left: 10vh;
+	padding-right: 10vh;
+}
+
+.main-container img {
+	padding-top: 30px;
+	display: inline-block;
+  	height: auto;
+  	max-width: 100%;
+  	margin: auto;
+}
+
+.main-container-text {
+	padding-top: 45px;
+}
+.main-container-text span, .footer a {
+	font-weight: 500;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.50); 
+}
+
+.main-container-text h1 {
+	color: #FFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 700; 
+}
+
+.main-container-text p {
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+.main-container-button {
+	font-family: 'Ubuntu Mono', monospace;
+	padding: 8px; 
+	border-radius: 30px;
+	border: 3px solid #D5D5D5;
+	background: #333; 
+	color: #fff;
+	text-decoration: none;
+	margin: 7px;
+}
+
+.main-container-button:hover {
+	border: 3px solid #007CED;
+	color: #fff;
+	text-decoration: none;
+}
+
+.main-skill-container {
+	background: #252525;
+	margin-top: 7vh;
+	border-top: 2px solid #333;
+	border-bottom: 2px solid #333;
+}
+
+.skill-title h2 {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	color: #FFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 600; 
+}
+
+.all-skill {
+	margin-top: 4vh;
+}
+
+.all-skill-row {
+	margin-top: 2vh;
+}
+
+.media p {
+	color: rgba(255, 255, 255, 0.70);
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400; 
+}
+
+.skill-progress span {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 600; 
+}
+
+footer {
+	margin-top: 5vh;
+}
+
+.footer a {
+	text-decoration: none;
 }
