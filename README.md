@@ -1,6 +1,7 @@
 ### Hi there 👋
 
-### https://webqubic.pages.dev/|**WebQubic**
+**[webqubic](https://webqubic.pages.dev/)**
+**[WEBCatalog](https://webqubic.pages.dev/)**
 
 <!--
 **WebQubic/WebQubic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
