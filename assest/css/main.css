@@ -91,14 +91,14 @@ body {
 	text-decoration: none;
 }
 
-.main-skill-container {
+.main-skill-container, .main-myprojects-container {
 	background: #252525;
 	margin-top: 7vh;
 	border-top: 2px solid #333;
 	border-bottom: 2px solid #333;
 }
 
-.skill-title h2 {
+.skill-title h2, .main-myprojects h2 {
 	margin-top: 3vh;
 	margin-bottom: 3vh;
 	color: #FFF;
@@ -137,4 +137,8 @@ footer {
 
 .footer a {
 	text-decoration: none;
+}
+
+.row-myprojects {
+	margin-top: 4vh;
 }
